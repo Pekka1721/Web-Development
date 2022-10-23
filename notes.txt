@@ -1,0 +1,35 @@
+
+Link to  notes : https://supersimpledev.github.io/references/html-css-reference.pdf
+
+HTML Basics
+<button>Hello</button> Creates a button with the text "Hello" inside.
+
+<p>paragraph of text</p> Creates a paragraph of text.
+
+HTML Syntax
+
+
+Syntax = rules for writing HTML code (like grammar in English).
+
+        1. Elements should have an opening tag and a matching closing tag.
+        2. In HTML, extra spaces and newlines are combined into 1 space.
+
+<p>paragraph of text</p>
+
+<p>paragraph of text</p>
+
+<p>
+paragraph of text
+</p>
+
+All 3 examples above will show the same result on the web page.
+
+Attributes
+
+Attributes modify how an HTML element behaves.
+<a href="https://youtube.com">
+Link to YouTube
+</a>
+<a> = link to another website.
+href = modifies which website is opened when
+clicking this link.
