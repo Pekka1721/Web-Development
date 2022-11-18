@@ -1,0 +1,64 @@
+
+    .uber{
+        height: 40px;
+        width: 100px;
+        background-color: black;
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+
+    .amzn{
+        width: 120px;
+        background-color: yellow;
+        border-radius: 50px;
+        border: none;
+        height: 30px;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+
+
+
+    .git{
+        background-color: rgb(50, 209, 50);
+        width: 100px;
+        border: none;
+        color:white ;
+        height: 30px;
+        border-radius: 45px;
+        font-weight: bold;
+        font-size: medium;
+        margin-right: 20px;
+        cursor: all-scroll;
+    }
+
+
+
+
+    .b1{
+        background-color: rgb(108, 37, 108);
+        border: none;
+        color: white;
+        font-weight: bold;
+        width: 100px;
+        height: 30px;
+        border-radius: 2px;
+        margin-right: 20px;
+    }
+
+
+
+
+    .b2{
+        
+        border-color: black;
+        border-width: thin ;
+        color:gray;
+        width: 90px;
+        height: 30px;
+        background-color: white;
+        border-radius: 2px;
+        cursor: not-allowed;
+    }
