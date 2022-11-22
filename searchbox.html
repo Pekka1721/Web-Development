@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Search Boxes </title> <!-- input boxes -->
+        <style>
+            .boxes{
+                border-radius: 20px;
+            }
+            .shadow{
+                border: none;
+                padding: 5px;
+                margin-left: 10px;
+                margin-right: 10px;
+                 box-shadow:0 1px 5px rgba(0, 0, 0, 0.25);
+                 border-radius: 20px;
+            }
+            .box{
+                background-color: azure;
+                border-color: antiquewhite;
+                color: coral;
+                cursor: no-drop;
+            }
+            .Discl{
+                color: rgb(183, 173, 173);
+                font-size: small;
+            }
+            .joinbut{
+                padding: 8px;
+                background-color: rgb(204, 250, 250);
+                border-radius: 20px;
+                width: 100px;
+                border: none;
+            }
+            .label{
+                
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            body{
+                text-align: center;
+            }
+
+            
+        </style>
+    </head>    
+<body>
+        <input class = "boxes" type="text" placeholder="Search here">
+        <!--With shadow and no border-->
+        <input class="shadow" type="text" placeholder=" Google or Type a URL">
+        <p class="label">Email</p>
+        <input class="box" type="text">
+        <p class="Discl">By clicking Agree & Join, you agree to the Privacy Policy</p>
+        <button class="joinbut">Agree & Join</button>
+
+    </body>
+</html>
