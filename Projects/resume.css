@@ -1,10 +1,14 @@
+body{
+    background-color: #da70d6;
+}
 .name{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    color: #808080;
+    color: #4b0082;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
 }
 .lists{
     
@@ -19,4 +23,57 @@
 }
 ul{
     list-style-type: none;
+}
+.grad{
+    float: left;
+    text-align: center;
+    width: 120px;
+    height: 200px;
+    background-color: #dda0dd;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight:lighter;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 70px;
+    margin-right: 20px;
+}
+.head{
+    text-align: center;
+    padding-top: 3px;
+}
+.school {
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+    text-align: center;
+    width: 120px;
+    height: 200px;
+    background-color:#dda0dd;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight:lighter;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.inter{
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+    text-align: center;
+    width: 120px;
+    height: 200px;
+    background-color: #dda0dd;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight:lighter;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main-box{
+    text-align: center;
+    padding-top: 3px;
+    width: 40%;
+    height: 300px;
+    background-color:  #8b008b;
+    font-size: medium;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 30px;
 }
