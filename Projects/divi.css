@@ -14,6 +14,9 @@ body{
     text-align: center;
     background-color:paleturquoise ;
 }
+.main-div:hover{
+    background-color: aliceblue;
+}
 .sub-div1{
     margin-left: 125px;
     font-weight: bold;
@@ -22,6 +25,9 @@ body{
     padding: 1px;
     background-color:aliceblue;
     border-radius: 10px;
+}
+.sub-div1:hover{
+    background-color: palevioletred;
 }
 .sub-div2{
     font-weight: bold;
@@ -95,6 +101,11 @@ body{
     background-color: cornflowerblue;
     color:mintcream;
     font-weight: bold;
-}  
+    cursor: pointer;
+}
+.but:hover{
+    background-color: mintcream;
+    color: cornflowerblue;
+} 
         
         
