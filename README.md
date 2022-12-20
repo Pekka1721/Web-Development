@@ -7,6 +7,6 @@ Hi This My Web Development Learning
     > Adding color, background,
     > Transitions
 - Project
-    >  Login Form
-    >  Youtube Clone
-    >  The Day Dreamers project
+    -  Login Form
+    -  Youtube Clone
+    -  The Day Dreamers project
