@@ -10,3 +10,5 @@ Hi This My Web Development Learning
     -  Login Form
     -  Youtube Clone
     -  The Day Dreamers project
+- JavaScript
+    - Basics of JavaScript [Introduction]
