@@ -1,0 +1,16 @@
+CRUD application using REST api 
+
+Web application using MongoDB REST api
+
+MEAN Stack
+Details:
+        Name 
+        Tech
+        Experience
+
+
+REST api --> get,post,patch,delete
+
+GET --> getting data    (Client to server)
+Post --> submiting data (Client to server)
+
