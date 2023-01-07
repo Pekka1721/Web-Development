@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Rock, Paper, Scissors</title>
+  <script src="script.js" defer></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;1,700&family=PT+Sans&display=swap');
+
+    body {
+      background-color: #41B3a3;
+      overflow: hidden;
+
+
+    }
+
+    .main-container {
+      width: 40vw;
+      height: 70vh;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: auto auto auto;
+      justify-content: center;
+
+    }
+
+    .title-small-wrapper {
+      background-color: aqua;
+
+    }
+
+    h3 {
+      size: 1em;
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: lighter;
+      color: white;
+
+
+    }
+
+    .status-head-wrapper {
+      grid-column-start: 1;
+      grid-column-end: 4;
+      grid-row-start: 2;
+
+      display: flex;
+      align-items: flex-end;
+
+      justify-content: space-around;
+
+
+    }
+
+    .status-head-wrapper h1 {
+      font-family: 'PT Sans', sans-serif;
+      font-size: 8em;
+      margin-bottom: auto;
+
+      color: white;
+    }
+
+    .game-button-wrapper {
+
+      grid-row-start: 3;
+      grid-column: 1/span 4;
+      display: flex;
+      align-items: flex-start;
+
+
+      justify-content: space-around;
+    }
+
+    button {
+      margin-top: auto;
+      color: #FFF;
+      margin: 0;
+      background-color: #208376;
+      border: 2px solid rgba(255, 255, 255, 0);
+      position: relative;
+      border-radius: 0px;
+      padding: 1.5em 3em;
+      display: inline-block;
+      font-family: "Lucida Console", Monaco, monospace;
+      font-size: 1em;
+      letter-spacing: 1px;
+      cursor: pointer;
+      margin-left: 1em;
+    }
+
+    button:hover,
+    button:active {
+      border: 2px solid rgb(255, 255, 255);
+    }
+
+    .move-display {
+      grid-row-start: 4;
+      grid-column: 1/span 4;
+
+
+      color: white;
+      font-family: 'PT Sans', sans-serif;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-around;
+    }
+
+    @media (max-width: 1000px) {
+      .main-container {
+        width: 80vw;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <h3 id="title-small">Rock Paper Scissors</h3>
+  <div class="main-container">
+    <span class="status-head-wrapper">
+      <h1 id="status-head"> </h1>
+    </span>
+    <div class="move-display">
+      <h2></h2>
+      <h2></h2>
+
+    </div>
+    <div class="game-button-wrapper">
+      <button id="rock-button" type="button"> </button>
+      <button id="paper-button" type="button"> </button>
+      <button id="scissors-button" type="button"> </button>
+    </div>
+  </div>
+</body>
+
+</html>
