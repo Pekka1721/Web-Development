@@ -12,3 +12,4 @@ Hi This My Web Development Learning
     -  The Day Dreamers project
 - JavaScript
     - Basics of JavaScript [Introduction]
+    - Rock, Paper, Scissor project
